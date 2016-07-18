@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="mapstogpx.com" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.mapstogpx.com">
+      <text>Sverrir Sigmundarson</text>
+    </link>
+    <!--desc>Map data copyright 2016 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2016</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/850 Meridian Way, San Jose, CA 95126/37.3039066,-121.9136277/@37.3084057,-121.9168444,16z/data=!3m1!4b1!4m9!4m8!1m5!1m1!1s0x808e34b2a8790c6b:0xf071de696ad1dc33!2m2!1d-121.9133131!2d37.3124517!1m0!3e0?hl=en</url-->
+    <time>2016-07-17T22:37:00Z</time>
+  </metadata>
+  <wpt lat="37.3124517" lon="-121.9133131">
+    <name>850 Meridian Way</name>
+    <desc>850 Meridian Way, San Jose, CA 95126, USA</desc>
+    <time>2016-07-17T22:37:00Z</time>
+  </wpt>
+  <wpt lat="37.31245" lon="-121.91364">
+    <name>WP001</name>
+    <time>2016-07-17T22:37:09Z</time>
+  </wpt>
+  <wpt lat="37.31286" lon="-121.91365">
+    <name>WP002</name>
+    <time>2016-07-17T22:37:19Z</time>
+  </wpt>
+  <wpt lat="37.31286" lon="-121.9129">
+    <name>WP003</name>
+    <time>2016-07-17T22:37:29Z</time>
+  </wpt>
+  <wpt lat="37.31288" lon="-121.912">
+    <name>WP004</name>
+    <time>2016-07-17T22:37:38Z</time>
+  </wpt>
+  <wpt lat="37.31289" lon="-121.91094">
+    <name>WP005</name>
+    <time>2016-07-17T22:37:48Z</time>
+  </wpt>
+  <wpt lat="37.31281" lon="-121.91094">
+    <name>WP006</name>
+    <time>2016-07-17T22:37:58Z</time>
+  </wpt>
+  <wpt lat="37.3126" lon="-121.91094">
+    <name>WP007</name>
+    <time>2016-07-17T22:38:07Z</time>
+  </wpt>
+  <wpt lat="37.31176" lon="-121.91093">
+    <name>WP008</name>
+    <time>2016-07-17T22:38:17Z</time>
+  </wpt>
+  <wpt lat="37.31139" lon="-121.91093">
+    <name>WP009</name>
+    <time>2016-07-17T22:38:27Z</time>
+  </wpt>
+  <wpt lat="37.31133" lon="-121.91092">
+    <name>WP010</name>
+    <time>2016-07-17T22:38:36Z</time>
+  </wpt>
+  <wpt lat="37.31131" lon="-121.91095">
+    <name>WP011</name>
+    <time>2016-07-17T22:38:46Z</time>
+  </wpt>
+  <wpt lat="37.31124" lon="-121.91097">
+    <name>WP012</name>
+    <time>2016-07-17T22:38:56Z</time>
+  </wpt>
+  <wpt lat="37.31118" lon="-121.91098">
+    <name>WP013</name>
+    <time>2016-07-17T22:39:05Z</time>
+  </wpt>
+  <wpt lat="37.31114" lon="-121.91102">
+    <name>WP014</name>
+    <time>2016-07-17T22:39:15Z</time>
+  </wpt>
+  <wpt lat="37.31111" lon="-121.91113">
+    <name>WP015</name>
+    <time>2016-07-17T22:39:25Z</time>
+  </wpt>
+  <wpt lat="37.3111" lon="-121.91122">
+    <name>WP016</name>
+    <time>2016-07-17T22:39:34Z</time>
+  </wpt>
+  <wpt lat="37.31106" lon="-121.91131">
+    <name>WP017</name>
+    <time>2016-07-17T22:39:44Z</time>
+  </wpt>
+  <wpt lat="37.31105" lon="-121.91204">
+    <name>WP018</name>
+    <time>2016-07-17T22:39:54Z</time>
+  </wpt>
+  <wpt lat="37.31106" lon="-121.91233">
+    <name>WP019</name>
+    <time>2016-07-17T22:40:03Z</time>
+  </wpt>
+  <wpt lat="37.31106" lon="-121.91261">
+    <name>WP020</name>
+    <time>2016-07-17T22:40:13Z</time>
+  </wpt>
+  <wpt lat="37.31102" lon="-121.91297">
+    <name>WP021</name>
+    <time>2016-07-17T22:40:23Z</time>
+  </wpt>
+  <wpt lat="37.3109" lon="-121.91362">
+    <name>WP022</name>
+    <time>2016-07-17T22:40:32Z</time>
+  </wpt>
+  <wpt lat="37.31085" lon="-121.91399">
+    <name>WP023</name>
+    <time>2016-07-17T22:40:42Z</time>
+  </wpt>
+  <wpt lat="37.31041" lon="-121.91383">
+    <name>WP024</name>
+    <time>2016-07-17T22:40:52Z</time>
+  </wpt>
+  <wpt lat="37.31003" lon="-121.91371">
+    <name>WP025</name>
+    <time>2016-07-17T22:41:01Z</time>
+  </wpt>
+  <wpt lat="37.30999" lon="-121.91365">
+    <name>WP026</name>
+    <time>2016-07-17T22:41:11Z</time>
+  </wpt>
+  <wpt lat="37.30786" lon="-121.91365">
+    <name>WP027</name>
+    <time>2016-07-17T22:41:21Z</time>
+  </wpt>
+  <wpt lat="37.30729" lon="-121.91366">
+    <name>WP028</name>
+    <time>2016-07-17T22:41:30Z</time>
+  </wpt>
+  <wpt lat="37.30637" lon="-121.91367">
+    <name>WP029</name>
+    <time>2016-07-17T22:41:40Z</time>
+  </wpt>
+  <wpt lat="37.30391" lon="-121.91364">
+    <name>WP030</name>
+    <time>2016-07-17T22:41:50Z</time>
+  </wpt>
+  <wpt lat="37.3039066" lon="-121.9136277">
+    <name>1090 Meridian Avenue</name>
+    <desc>1090 Meridian Avenue, San Jose, CA 95125, USA</desc>
+    <time>2016-07-17T22:42:00Z</time>
+  </wpt>
+</gpx>

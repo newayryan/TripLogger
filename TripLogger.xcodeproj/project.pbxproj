@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B628C78F1D3A15CF000BB521 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B628C78E1D3A15CF000BB521 /* main.m */; };
+		B628C7921D3A15CF000BB521 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B628C7911D3A15CF000BB521 /* AppDelegate.m */; };
+		B628C7951D3A15CF000BB521 /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B628C7941D3A15CF000BB521 /* TLViewController.m */; };
+		B628C7981D3A15CF000BB521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B628C7961D3A15CF000BB521 /* Main.storyboard */; };
+		B628C79A1D3A15CF000BB521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B628C7991D3A15CF000BB521 /* Assets.xcassets */; };
+		B628C79D1D3A15CF000BB521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B628C79B1D3A15CF000BB521 /* LaunchScreen.storyboard */; };
+		B628C7AA1D3A25CE000BB521 /* TLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B628C7A91D3A25CE000BB521 /* TLTableViewCell.m */; };
+		B628C7D31D3AA5BA000BB521 /* Trip_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B628C7D11D3AA5BA000BB521 /* Trip_Data.xcdatamodeld */; };
+		B628C7DE1D3AF33E000BB521 /* Trip+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B628C7DB1D3AF33E000BB521 /* Trip+CoreDataProperties.m */; };
+		B628C7DF1D3AF33E000BB521 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = B628C7DD1D3AF33E000BB521 /* Trip.m */; };
+		B628C7E41D3B0E9B000BB521 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B628C7E31D3B0E9B000BB521 /* CoreLocation.framework */; };
+		B628C7E61D3C404B000BB521 /* drive1Home.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B628C7E51D3C404B000BB521 /* drive1Home.gpx */; };
+		B628C7E91D3C6216000BB521 /* TLLocationMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = B628C7E81D3C6216000BB521 /* TLLocationMarker.m */; };
+		B6ED6E631D3CC4CE00D67C6A /* TLBackgroundTaskHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ED6E621D3CC4CE00D67C6A /* TLBackgroundTaskHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B628C78A1D3A15CF000BB521 /* TripLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B628C78E1D3A15CF000BB521 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B628C7901D3A15CF000BB521 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B628C7911D3A15CF000BB521 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B628C7931D3A15CF000BB521 /* TLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
+		B628C7941D3A15CF000BB521 /* TLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
+		B628C7971D3A15CF000BB521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B628C7991D3A15CF000BB521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B628C79C1D3A15CF000BB521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B628C79E1D3A15CF000BB521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B628C7A81D3A25CE000BB521 /* TLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTableViewCell.h; sourceTree = "<group>"; };
+		B628C7A91D3A25CE000BB521 /* TLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTableViewCell.m; sourceTree = "<group>"; };
+		B628C7D21D3AA5BA000BB521 /* Trip_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Trip_Data.xcdatamodel; sourceTree = "<group>"; };
+		B628C7DA1D3AF33E000BB521 /* Trip+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Trip+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B628C7DB1D3AF33E000BB521 /* Trip+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Trip+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B628C7DC1D3AF33E000BB521 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		B628C7DD1D3AF33E000BB521 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		B628C7E31D3B0E9B000BB521 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B628C7E51D3C404B000BB521 /* drive1Home.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = drive1Home.gpx; sourceTree = "<group>"; };
+		B628C7E71D3C6216000BB521 /* TLLocationMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLLocationMarker.h; sourceTree = "<group>"; };
+		B628C7E81D3C6216000BB521 /* TLLocationMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLLocationMarker.m; sourceTree = "<group>"; };
+		B6ED6E611D3CC4CE00D67C6A /* TLBackgroundTaskHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBackgroundTaskHandler.h; sourceTree = "<group>"; };
+		B6ED6E621D3CC4CE00D67C6A /* TLBackgroundTaskHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBackgroundTaskHandler.m; sourceTree = "<group>"; };
+		B6ED6E641D3CC55800D67C6A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B628C7871D3A15CF000BB521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628C7E41D3B0E9B000BB521 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B628C7811D3A15CF000BB521 = {
+			isa = PBXGroup;
+			children = (
+				B628C7E51D3C404B000BB521 /* drive1Home.gpx */,
+				B628C78C1D3A15CF000BB521 /* TripLogger */,
+				B628C78B1D3A15CF000BB521 /* Products */,
+				B628C7E21D3B0E8B000BB521 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B628C78B1D3A15CF000BB521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B628C78A1D3A15CF000BB521 /* TripLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B628C78C1D3A15CF000BB521 /* TripLogger */ = {
+			isa = PBXGroup;
+			children = (
+				B628C7A61D3A25A2000BB521 /* Model */,
+				B628C7A51D3A188D000BB521 /* View */,
+				B628C7A41D3A185C000BB521 /* Controller */,
+				B628C7901D3A15CF000BB521 /* AppDelegate.h */,
+				B628C7911D3A15CF000BB521 /* AppDelegate.m */,
+				B628C7991D3A15CF000BB521 /* Assets.xcassets */,
+				B628C79B1D3A15CF000BB521 /* LaunchScreen.storyboard */,
+				B628C79E1D3A15CF000BB521 /* Info.plist */,
+				B628C78D1D3A15CF000BB521 /* Supporting Files */,
+			);
+			path = TripLogger;
+			sourceTree = "<group>";
+		};
+		B628C78D1D3A15CF000BB521 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED6E641D3CC55800D67C6A /* PrefixHeader.pch */,
+				B628C78E1D3A15CF000BB521 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B628C7A41D3A185C000BB521 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B628C7931D3A15CF000BB521 /* TLViewController.h */,
+				B628C7941D3A15CF000BB521 /* TLViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B628C7A51D3A188D000BB521 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B628C7A81D3A25CE000BB521 /* TLTableViewCell.h */,
+				B628C7A91D3A25CE000BB521 /* TLTableViewCell.m */,
+				B628C7961D3A15CF000BB521 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B628C7A61D3A25A2000BB521 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6ED6E651D3CCA2000D67C6A /* CoreData */,
+				B628C7E71D3C6216000BB521 /* TLLocationMarker.h */,
+				B628C7E81D3C6216000BB521 /* TLLocationMarker.m */,
+				B6ED6E611D3CC4CE00D67C6A /* TLBackgroundTaskHandler.h */,
+				B6ED6E621D3CC4CE00D67C6A /* TLBackgroundTaskHandler.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B628C7E21D3B0E8B000BB521 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B628C7E31D3B0E9B000BB521 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6ED6E651D3CCA2000D67C6A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				B628C7D11D3AA5BA000BB521 /* Trip_Data.xcdatamodeld */,
+				B628C7DA1D3AF33E000BB521 /* Trip+CoreDataProperties.h */,
+				B628C7DB1D3AF33E000BB521 /* Trip+CoreDataProperties.m */,
+				B628C7DC1D3AF33E000BB521 /* Trip.h */,
+				B628C7DD1D3AF33E000BB521 /* Trip.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B628C7891D3A15CF000BB521 /* TripLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B628C7A11D3A15CF000BB521 /* Build configuration list for PBXNativeTarget "TripLogger" */;
+			buildPhases = (
+				B628C7861D3A15CF000BB521 /* Sources */,
+				B628C7871D3A15CF000BB521 /* Frameworks */,
+				B628C7881D3A15CF000BB521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripLogger;
+			productName = TripLogger;
+			productReference = B628C78A1D3A15CF000BB521 /* TripLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B628C7821D3A15CF000BB521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = WL;
+				TargetAttributes = {
+					B628C7891D3A15CF000BB521 = {
+						CreatedOnToolsVersion = 7.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = B628C7851D3A15CF000BB521 /* Build configuration list for PBXProject "TripLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B628C7811D3A15CF000BB521;
+			productRefGroup = B628C78B1D3A15CF000BB521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B628C7891D3A15CF000BB521 /* TripLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B628C7881D3A15CF000BB521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628C79D1D3A15CF000BB521 /* LaunchScreen.storyboard in Resources */,
+				B628C79A1D3A15CF000BB521 /* Assets.xcassets in Resources */,
+				B628C7981D3A15CF000BB521 /* Main.storyboard in Resources */,
+				B628C7E61D3C404B000BB521 /* drive1Home.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B628C7861D3A15CF000BB521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B628C7E91D3C6216000BB521 /* TLLocationMarker.m in Sources */,
+				B628C7951D3A15CF000BB521 /* TLViewController.m in Sources */,
+				B628C7921D3A15CF000BB521 /* AppDelegate.m in Sources */,
+				B628C7DF1D3AF33E000BB521 /* Trip.m in Sources */,
+				B628C7DE1D3AF33E000BB521 /* Trip+CoreDataProperties.m in Sources */,
+				B628C78F1D3A15CF000BB521 /* main.m in Sources */,
+				B628C7D31D3AA5BA000BB521 /* Trip_Data.xcdatamodeld in Sources */,
+				B628C7AA1D3A25CE000BB521 /* TLTableViewCell.m in Sources */,
+				B6ED6E631D3CC4CE00D67C6A /* TLBackgroundTaskHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B628C7961D3A15CF000BB521 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B628C7971D3A15CF000BB521 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B628C79B1D3A15CF000BB521 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B628C79C1D3A15CF000BB521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B628C79F1D3A15CF000BB521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B628C7A01D3A15CF000BB521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B628C7A21D3A15CF000BB521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TripLogger/PrefixHeader.pch;
+				INFOPLIST_FILE = TripLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiliu.TripLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B628C7A31D3A15CF000BB521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TripLogger/PrefixHeader.pch;
+				INFOPLIST_FILE = TripLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weiliu.TripLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B628C7851D3A15CF000BB521 /* Build configuration list for PBXProject "TripLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B628C79F1D3A15CF000BB521 /* Debug */,
+				B628C7A01D3A15CF000BB521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B628C7A11D3A15CF000BB521 /* Build configuration list for PBXNativeTarget "TripLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B628C7A21D3A15CF000BB521 /* Debug */,
+				B628C7A31D3A15CF000BB521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B628C7D11D3AA5BA000BB521 /* Trip_Data.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B628C7D21D3AA5BA000BB521 /* Trip_Data.xcdatamodel */,
+			);
+			currentVersion = B628C7D21D3AA5BA000BB521 /* Trip_Data.xcdatamodel */;
+			path = Trip_Data.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B628C7821D3A15CF000BB521 /* Project object */;
+}
